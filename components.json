@@ -1,0 +1,4 @@
+{
+  "card": "packages/card/index.js",
+  "demo": "packages/demo/index.js"
+}

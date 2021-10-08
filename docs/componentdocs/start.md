@@ -1,5 +1,4 @@
-# WeX-UI组件库
-官方文档：https://lsfcxz.github.io/wex-ui
+
 
 ### 快速开始
 

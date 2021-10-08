@@ -1,0 +1,10 @@
+const utlis =require('../../build/utlis')
+const gulp = require('gulp')
+const sass = require('gulp-sass')
+const minifyCSS = require('gulp-minify-css')
+gulp.task('sass', async function () {
+  return gulp.src('./src/*.scss')
+    .pipe(sass())
+    .pipe(minifyCSS())
+  .pipe(gulp.dest(utlis.STYLES_PATH))
+})
