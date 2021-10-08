@@ -22,7 +22,7 @@
     "build": "npm-run-all -p build:prod build:js build:css",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "depoly": "bash ./build/deploy.sh"
+    "depoly": "bash deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
